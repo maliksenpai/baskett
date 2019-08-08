@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Puan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+  <TextView
+      android:id="@+id/Sıralama"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <ImageView
+      android:id="@+id/Amblem"
+      android:layout_width="55dp"
+      android:layout_height="37dp"
+      android:layout_weight="1" />
+
+  <TextView
+      android:id="@+id/Takımİsmi"
+      android:layout_width="109dp"
+      android:layout_height="18dp"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/OynananMac"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/GalipSayisi"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/MaglubiyerSayisi"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/AtilanSayi"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/YenilenSayi"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/Avarage"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:text="TextView" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Kadro"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/Isım"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="@tools:sample/lorem" />
+
+  <TextView
+      android:id="@+id/Rol"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/Toplam"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_weight="1"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/Para"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_weight="1"
+      android:text="TextView" />
+</LinearLayout>

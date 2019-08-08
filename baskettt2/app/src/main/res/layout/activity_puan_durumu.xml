@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.basket.baskettt2.View.PuanDurumu">
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.basket.baskettt2.View.Topbar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Liste"
+        android:layout_width="381dp"
+        android:layout_height="695dp"
+        android:layout_below="@+id/fragment2"
+        tools:listitem="@layout/recycler_view_item">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
